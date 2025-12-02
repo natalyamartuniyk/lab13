@@ -71,7 +71,7 @@ class _NotesPageState extends State<NotesPage>{
                    ),
                    validator: (value){
                      if(value == null || value.isEmpty){
-                       return 'Value is required';
+                       return 'Нотатка не може бути пуста';
                      }
                      return null;
                    },
