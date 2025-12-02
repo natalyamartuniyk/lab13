@@ -1,4 +1,3 @@
-import 'package:sqflite/sqflite.dart';
 import '../models/note_model.dart';
 import '../service/db.dart';
 

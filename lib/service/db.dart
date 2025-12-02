@@ -1,10 +1,8 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
-// Увага на назву класу: DBService
 class DBService {
 
-  // Singleton
   static final DBService instance = DBService._init();
   static Database? _database;
 
